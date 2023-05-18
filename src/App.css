@@ -2,6 +2,20 @@
   text-align: center;
 }
 
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
+body {
+  margin: 0;
+  font-family: LabilGrotesk;
+  background-color: #000000;
+  color: white;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -35,4 +49,10 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+@font-face {
+  font-family: LabilGrotesk;
+  src: url(./Font/LabilGrotesk-Medium.ttf);
 }

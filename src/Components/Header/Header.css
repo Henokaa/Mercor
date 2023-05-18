@@ -1,0 +1,19 @@
+  
+  .navbar .btn {
+    transition-duration: 500ms;
+    transition-timing-function: ease-in-out;
+    background-color: white;
+    font-size: 18px;
+    padding: 0.815rem 1.232rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1;
+    border-radius: 0.7rem;
+    color: black;
+  }
+  
+  .navbar .btn:hover {
+    background-color: #a594fd;
+    color: white;
+  }

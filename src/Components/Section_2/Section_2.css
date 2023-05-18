@@ -1,0 +1,82 @@
+.section_2 {
+    margin: 0 111px;
+    font-size: 3rem;
+    height: 610vh;
+    padding: 4rem 19px;
+    letter-spacing: -0.01em;
+    line-height: 1;
+    position: relative;
+}
+.section_2 .scrollerr {
+    position: sticky;
+    top: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.first_card {
+    padding-top: 3.5rem;
+    height: 100vh;
+    width: 50%;
+}
+.first_card .first_title {
+    font-weight: 400;
+    font-size: 1.5rem;
+    color: #a594fd;
+    margin-bottom: 1em;
+}
+.first_card .first_title svg {
+    margin-right: 6px;
+}
+.first_card .first_heading {
+    font-size: 4rem;
+    margin-bottom: 2.5rem;
+    padding-right: 17%;
+}
+.first_card .first_content {
+    padding-right: 25%;
+    font-size: 1rem;
+    letter-spacing: -0.01em;
+    color: #adadad;
+    line-height: 1.5;
+}
+
+.sec_card {
+    margin-left: 4rem;
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+}
+.sec_card .card {
+    border-radius: 1.25rem;
+    background-color: #101010;
+    color: #adadad;
+    height: 75vh;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+}
+.card .card-pic {
+    height: 50%;
+    background-image: url('../Assets/Back.gif');
+}
+.card .card-info {
+    padding: 0 2.5rem;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 40%;
+}
+.card .card-info .card-title {
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.card .card-info .card-description {
+    font-size: 1.2rem;
+    text-align: center;
+    line-height: 1.2;
+}

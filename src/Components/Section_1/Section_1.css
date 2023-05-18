@@ -1,0 +1,14 @@
+.part_1 {
+    margin: 0 20px;
+    font-size: 3.5rem;
+    height: 450vh;
+    padding: 5rem 52px;
+    letter-spacing: -0.01em;
+    line-height: 1;
+    position: relative;
+}
+.part_1 .scroller {
+    position: sticky;
+    top: 100px;
+    text-align: left;
+}
